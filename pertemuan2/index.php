@@ -27,7 +27,8 @@
 <body>
   <h1>DI ISI DULU YA ADIK ADIK</h1>
   <h1>welcome to cekuyah baluu</h1>
-  <form action="" method>
+
+  <form action="proses.php" method="POST">
     <table border = 1 style = "border-collapse : collapse; witdh: 50%; " >
       <tr>
         <td>NISN</td>
@@ -133,34 +134,33 @@
         <td>Pilih Ekstrakulikuler</td>
         <td>:</td>
         <td>
-          <input type="checkbox" name="" id="">OSIS
+          <input type="checkbox" name="eskul[]" id="" value="OSIS" >OSIS
           <br>
-          <input type="checkbox" name="" id="">GDS
+          <input type="checkbox" name="eskul[]" id="" Value="GDS">GDS
           <br>
-          <input type="checkbox" name="" id="">PRAMUKA
+          <input type="checkbox" name="eskul[]" id="" Value="PRAMUKA">PRAMUKA
           <br>
-          <input type="checkbox" name="" id="">PMR
+          <input type="checkbox" name="eskul[]" id="" Value="PMR">PMR
           <br>
-          <input type="checkbox" name="" id="">LASKAR HIJAU
+          <input type="checkbox" name="eskul[]" id="" Value="LASKAR HIJAU">LASKAR HIJAU
           <br>
-          <input type="checkbox" name="" id="">ENCASA
+          <input type="checkbox" name="eskul[]" id="" Value="ENCASA">ENCASA
           <br>
-          <input type="checkbox" name="" id="">REMAS
+          <input type="checkbox" name="eskul[]" id="" Value="REMAS">REMAS
           <br>
-          <input type="checkbox" name="" id="">TARI
+          <input type="checkbox" name="eskul[]" id="" Value="TARI">TARI
           <br>
-          <input type="checkbox" name="" id="">FUTSAL
+          <input type="checkbox" name="eskul[]" id="" Value="FUTSAL">FUTSAL
           <br>
-          <input type="checkbox" name="" id="">VOLI
+          <input type="checkbox" name="eskul[]" id="" Value="VOLI">VOLI
           <br>
-          <input type="checkbox" name="" id="">BASKET
-          <br>
-           
+          <input type="checkbox" name="eskul[]" id="" Value="BASKET">BASKET
         </td>
       </tr>
       <tr>
         <td>
-        <button class="btn btn-primary" type="button">Button</button>
+        <!-- <button class="btn btn-primary" type="submit" value="btnmantap">submit</button> -->
+        <input type="submit" class="btn btn-info" value="SUBMIT">
       </tr>
     </table>
     
