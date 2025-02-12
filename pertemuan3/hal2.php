@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Submit Cv. TeknoNusa</title>
 </head>
 <body>
     <style>
@@ -15,7 +15,20 @@
         td {
             padding : 1em;
         }
+        h1{
+          text-align: center;
+          color: #7886C7;
+         }
+         h3{
+          text-align: center;
+          font-size: 25px; 
+          top: 9rem;
+
+         }
     </style>
+
+        <h1>CV. Tekno Nusa</h1>
+        <h3>by Levina Zalfa Sista</h3>
 
     <?php
         if (isset($_POST['SUBMIT']))
@@ -69,8 +82,8 @@
                     if ($totalgajisebulan > 54000000) {
                         echo "Rp" . number_format($totalgajisudahdipotong / 12);
                     } else {
-                        echo "want to pay, Rp" . $totalgajisudahdipotong / 12 . "</br>";
-                        echo "if no pay, Rp" . $totalgajisebulan;
+                        echo "sudah di potong pajak,  Rp" . $totalgajisudahdipotong / 12 . "</br>";
+                        echo "jika tidak membayar pajak,  Rp" . $totalgajisebulan;
                     }
                 ?>
             </td>
