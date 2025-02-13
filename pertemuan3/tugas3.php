@@ -34,24 +34,24 @@
         <tr>
             <td>Name</td>
             <td>:</td>
-            <td><input type="text" name="name" id=""></td>
+            <td><input type="text" name="name" id="" required></td>
         </tr>
         <tr>
             <td>Divisi</td>
             <td>:</td>
-            <td><input type="text" name="divisi" id=""></td>
+            <td><input type="text" name="divisi" id="" required></td>
         </tr>
         <tr>
             <td>Gaji</td>
             <td>:</td>
-            <td><input type="number" name="gaji" id=""></td>
+            <td><input type="number" name="gaji" id="" required></td>
         </tr>
             <td>Do you have NPWP?</td>
             <td>:</td>
             <td>
-                <input type="radio" name="npwp" id="" Value="Have">Yes,Ofc
+                <input type="radio" name="npwp" id="" Value="Have" required>Yes,Ofc
                 <br>
-                <input type="radio" name="npwp" id="" Value="Havent">No
+                <input type="radio" name="npwp" id="" Value="Havent" required>No
             </td>
         <tr>
             <td>

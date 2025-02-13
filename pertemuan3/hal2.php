@@ -10,7 +10,7 @@
         table {
             position: absolute;
             left: 20rem;
-            top : 10rem
+            top : 10rem;
         }
         td {
             padding : 1em;
@@ -82,7 +82,7 @@
                     if ($totalgajisebulan > 54000000) {
                         echo "Rp" . number_format($totalgajisudahdipotong / 12);
                     } else {
-                        echo "sudah di potong pajak,  Rp" . $totalgajisudahdipotong / 12 . "</br>";
+                        echo "Jika mau membayar pajak,  Rp" . $totalgajisudahdipotong / 12 . "</br>";
                         echo "jika tidak membayar pajak,  Rp" . $totalgajisebulan;
                     }
                 ?>
